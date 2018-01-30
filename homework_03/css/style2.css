@@ -1,26 +1,25 @@
 body {
-  background: rgba(198, 238, 252, 0.53);
+  background: #dcbb9a;
   margin: 0;
   padding: 0; }
 
 #content {
-  background-color: #3b3b3b;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   padding: 13px;
   margin: 5px 170px 5px 170px; }
 
 h1 {
-  color: #fccd10;
+  color: #893c00;
   text-align: center;
   margin-top: 13px;
-  margin-bottom: 0;
-  text-transform: uppercase; }
+  margin-bottom: 0; }
 
 h2 {
-  color: #fccd10; }
+  color: #893c00; }
 
 img {
-  border: 2px solid #fccd10;
+  border: 2px solid #893c00;
   padding: 2px;
   float: left;
   margin: 0px 15px 10px 0px; }
@@ -30,15 +29,16 @@ img {
   margin: 0px 0px 10px 15px; }
 
 .brief {
+  float: left;
+  width: 350px;
   padding: 15px;
-  background: #fff178;
+  background: #fadcba;
   position: relative;
   margin-bottom: 20px;
-  margin-right: 8px;
-  color: #000000; }
+  margin-right: 8px; }
 
 a {
-  color: #fccd10; }
+  color: #3d70a1; }
 
 table {
   text-align: left;
@@ -46,7 +46,6 @@ table {
   width: 100%; }
 
 caption {
-  color: #000000;
   text-align: right; }
 
 table,
@@ -54,18 +53,16 @@ caption {
   padding-right: 50px; }
 
 th {
-  color: #000000;
   text-transform: uppercase;
-  background: #94a34e;
+  background: #e0e0e0;
   padding: 10px 15px 10px 15px;
   font-weight: normal; }
   th:not(:first-child) {
     border-left: 1px solid white; }
 
 td {
-  border-bottom: 1px solid #94a34e;
-  padding: 5px 15px 5px 15px;
-  background: #677d01; }
+  border-bottom: 1px solid #e0e0e0;
+  padding: 5px 15px 5px 15px; }
 
 .response {
   padding-right: 6px; }
@@ -93,12 +90,12 @@ textarea {
     float: right; }
 
 span {
-  color: #fccd10; }
+  color: #808080; }
 
 button.button {
-  color: #fccd10;
-  border: 1px solid #fccd10;
-  background: #3b3b3b;
+  color: #3d70a1;
+  border: 1px solid #3d70a1;
+  background: #ffffff;
   width: 180px;
   height: 35px;
   font-size: 1.1em; }
