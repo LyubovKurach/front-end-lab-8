@@ -10,7 +10,28 @@ $aColor: null !default;
 $thBgColor: null !default;
 $spanColor: null !default;
 
+//mixins
 
+@mixin colorBlack($style) {
+	@if $style == "second" {
+		color: #000000;
+	}
+}
+
+
+@mixin table($styleParameter  
+	, $thBgColorParameter   
+	, $tdBgColor:#677d01  
+	) 
+	{
+	table {
+		text-align: left;
+		border-spacing: 0;
+		width: 100%;
+	}
+
+
+//other
 
 body {
 	background: $bodyBgcolor;
@@ -54,11 +75,7 @@ img {
 	margin: 0px 0px 10px 10px;
 }
 
-@mixin colorBlack($style) {
-	@if $style == "second" {
-		color: #000000;
-	}
-}
+
 
 
 .brief {
@@ -83,16 +100,7 @@ a {
 }
 
 
-@mixin table($styleParameter  
-	, $thBgColorParameter   
-	, $tdBgColor:#677d01  
-	) 
-	{
-	table {
-		text-align: left;
-		border-spacing: 0;
-		width: 100%;
-	}
+
 
 	caption {
 		@include colorBlack($styleParameter);
