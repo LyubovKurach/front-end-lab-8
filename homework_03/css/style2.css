@@ -1,1 +1,122 @@
-table{text-align:left;border-spacing:0;width:100%}body{background:rgba(198,238,252,0.53);margin:0;padding:0}#content{background-color:#3b3b3b;color:#fff;padding:20px;margin:15px 150px 15px 150px}h1{color:#fccd10;text-align:center;margin-top:17px;margin-bottom:0}h2{color:#fccd10}img{border:3px solid #fccd10;padding:3px;float:left;margin:0px 15px 10px 0px}.brief+img{float:right;margin:0px 0px 10px 10px}.brief{padding:15px;background:#fff178;position:relative;margin-bottom:25px;margin-right:10px}a{color:#fccd10}caption{text-align:right}table,caption{padding-right:50px}th{text-transform:uppercase;background:#94a34e;padding:10px 15px 10px 15px;font-weight:normal}th:not(:first-child){border-left:1px solid white}td{border-bottom:2px solid #94a34e;padding:5px 15px 5px 15px}.response{padding-right:6px}form{width:100%}input,textarea,button{margin:7px 7px 12px 0px}div input,div textarea{width:100%}textarea{overflow:hidden}.name{width:50%}.name:first-child{float:left}.name:nth-child(2){float:right}span{color:#fccd10}button.button{color:#fccd10;border:2px solid #fccd10;background:#3b3b3b;width:200px;height:40px;font-size:1.1em}
+table{
+  text-align:left;
+  border-spacing:0;
+  width:100%
+}
+
+body{
+  background:rgba(198,238,252,0.53);
+  margin:0;
+  padding:0
+}
+
+#content{
+  background-color:#3b3b3b;
+  color:#fff;
+  padding:20px;
+  margin:15px 150px 15px 150px
+}
+
+h1{
+  color:#fccd10;
+  text-align:center;
+  margin-top:17px;
+  margin-bottom:0
+}
+
+h2{
+  color:#fccd10
+}
+
+img{
+  border:3px solid #fccd10;
+  padding:3px;
+  float:left;
+  margin:0px 15px 10px 0px
+}
+
+.brief+img{
+  float:right;
+  margin:0px 0px 10px 10px
+}
+
+.brief{
+  padding:15px;
+  background:#fff178;
+  position:relative;
+  margin-bottom:25px;
+  margin-right:10px
+}
+
+a{
+  color:#fccd10
+}
+
+caption{
+  text-align:right
+}
+
+table,caption{
+  padding-right:50px
+}
+
+th{
+  text-transform:uppercase;
+  background:#94a34e;
+  padding:10px 15px 10px 15px;
+  font-weight:normal
+}
+
+th:not(:first-child){
+  border-left:1px solid white
+}
+
+td{
+  border-bottom:2px solid #94a34e;
+  padding:5px 15px 5px 15px
+}
+
+.response{
+  padding-right:6px
+}
+
+  form{
+    width:100%
+  }
+
+input,textarea,button{
+  margin:7px 7px 12px 0px
+}
+
+div input,div textarea{
+  width:100%
+}
+
+textarea{
+  overflow:hidden
+}
+
+.name{
+  width:50%
+}
+
+.name:first-child{
+  float:left
+}
+
+.name:nth-child(2){
+  float:right
+}
+
+span{
+  color:#fccd10
+}
+
+button.button{
+  color:#fccd10;
+  border:2px solid #fccd10;
+  background:#3b3b3b;
+  width:200px;
+  height:40px;
+  font-size:1.1em
+}
