@@ -253,14 +253,14 @@ header {
   cursor: pointer;
   height: 62px;
   width: 170px;
-  color: #ffffff;
+  color: white;
   border: none;
   background-color: #343638;
 }
 
 #subscribe_form button:hover {
   color: #343638;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid  #343638;
   transition: 1s ease-out;
 }
@@ -268,7 +268,7 @@ header {
 
 /*Info block*/
 
-.some_info {
+.someinfo {
   width: 90%;
   min-width: 900px;
   margin: 0 auto;
@@ -279,15 +279,13 @@ header {
   line-height: 1.6;
   text-align: justify;
 }
-.some_info h4 {
+.someinfo h4 {
   font-size: 18px;
   color: #000000;
   margin: 30px 0;
 }
 
-.news_letter p {
-  padding-bottom: 25px;
-}
+
 
 .black_and_white,
 .contact,
@@ -309,13 +307,17 @@ header {
   color: #E8E8E8;
 }
 
+
+.news_letter p {
+  padding-bottom: 40px;
+}
 .news_letter form {
   width: 100%;
   padding: 0;
   display: flex;
 }
 .news_letter form input {
-  width: 65%;
+  width: 64%;
   height: 45px;
   padding-left: 3%;
   outline: none;
@@ -331,7 +333,7 @@ header {
   color: #343638;
   background-color: white;
   border: 1px solid  #343638;
-  transition: 1s ease-out;
+  transition: 0,5s ease-out;
 }
 
 /*Footer block*/
@@ -354,12 +356,12 @@ footer li a {
   padding: 10px;
   text-transform: capitalize;
   color: #000000;
-  transition: 1s ease-out;
+  transition: 0,5s ease-out;
 }
 footer li a:hover {
   color: #9E9E9E;
   border-bottom: 2px solid #9E9E9E;
-  transition: 1s ease-out;
+  transition: 0,5s ease-out;
 }
 
 .footernav ul {
@@ -368,6 +370,3 @@ footer li a:hover {
   padding-right: 30px;
 }
 
-.gallery_container_2 {
-  margin-bottom: 100px;
-}
