@@ -1,0 +1,69 @@
+
+
+*{
+	width: 100%;
+	margin: 0 auto;
+	background: lightgrey;
+	color: black;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+/*Header style*/
+
+a{
+    text-decoration: none;
+    font-size: 11pt;
+    color: darkgray;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: white;
+}
+
+mark{
+    color: white;
+    background: none;
+}
+
+nav.menu_1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+div.logo{	
+	color: #ffffff;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+
+
+
+.main content{
+	background-image: url('../img/apples.jpg');
+	background-size: 100% auto;
+	height: 620px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
