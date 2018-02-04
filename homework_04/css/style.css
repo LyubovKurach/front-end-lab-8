@@ -362,7 +362,7 @@ footer li a:hover {
   transition: 1s ease-out;
 }
 
-.footer_nav ul {
+.footernav ul {
   display: inline-flex;
   justify-content: space-between;
   padding-right: 30px;
