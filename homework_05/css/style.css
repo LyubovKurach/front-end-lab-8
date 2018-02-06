@@ -1,0 +1,292 @@
+/* Mobile */
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+}
+
+a:hover {
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+}
+
+div.page {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+div.cover {
+  background: url("../img/banner.jpg") no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+div.cover div.page div {
+  color:#fff;
+  background-color: #39C2D7;
+  font-size: 1.15em;
+  text-align: left;
+  bottom:20px;
+  left:20px;
+  right: 20px;
+  padding:15px;
+  line-height: 30px;
+  position: absolute;
+}
+
+header img {
+  width: 100px;
+  padding:12px 0 6px;
+}
+
+header nav {
+  background-color: #EEEEEE;
+}
+
+header nav li:first-child {
+  border-top: 2px solid #CCCCCC;
+}
+
+header nav li {
+  text-align: left;
+  border-bottom: 1px solid #CCCCCC;
+  padding:12px 0 12px 20px;
+}
+
+header nav li a {
+  color:#464547;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+header nav li a:hover {
+  color:#39C2D7;
+}
+
+main div.photo {
+  background-color: #CCCCCC;
+  padding: 10px 0;
+  margin:15px;
+  color:#333;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.55s ease;
+}
+
+main div.photo:hover {
+  cursor: pointer;
+  background-color: #39C2D7;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.55s ease;
+}
+
+main div.photo h3, main div.photo p {
+  text-align: left;
+  padding:0 10px;
+}
+
+main div.photo h3 {
+  font-size: 0.95em;
+}
+
+main div.photo p {
+  font-size: 0.95em;
+}
+
+main div.photo img {
+  width: 80%;
+  margin-bottom: 12px;
+}
+
+footer {
+  background-color: #39C2D7;
+  color:#fff;
+  font-size: 0.95em;
+  font-weight: bold;
+  padding: 12px 0 20px;
+} 
+
+footer a {
+  color:#fff;
+  text-decoration: underline;
+  display: block;
+  font-size: 0.9em;
+  padding-top: 5px;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer p {
+  padding-top: 25px;
+}
+
+
+/* Tablet */
+
+@media only screen and (min-width: 550px) {
+  header nav {
+    background: none;
+  }
+
+  header nav {
+    padding-bottom: 12px;
+  }
+
+  header nav li:first-child {
+    border-top:none;
+  }
+
+  header nav li {
+    text-align: center;
+    display: inline-block;
+    border-bottom:none;
+    padding:12px 0 12px 12px;
+  }
+
+  header nav li a{
+    font-size: 0.75em;
+    font-weight: 850;
+  }
+
+  div.cover  {
+    height: 350px;
+  }
+
+  div.cover div.page div {
+    background-color: transparent;
+    margin: 0 auto;
+    top:25px;
+    line-height: 20px;
+    width:60%;
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  main div.photo {
+    margin:0;
+  }
+
+  main div.photo img {
+    width: 75%;
+  }
+
+  main div.photo p {
+    font-size: 0.70em;
+  }
+
+  main div.photo h3 {
+    font-size: 0.75em;
+  }
+
+  main div.container  {
+    display: grid;
+    margin: 12px auto;
+    grid-gap: 12px;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+  }
+
+  footer a:first-child {
+    padding-left:0;
+  }
+
+  footer a {
+    display: inline-block;
+    padding-left:30px;
+  }
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1000px) {
+
+  header {
+    padding:15px 0;
+  }
+
+  header div.page{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  header div.page img {
+    height: 50px;
+  }
+
+  header nav li {
+    padding:20px 0 15px 20px;
+  }
+
+  header nav li a{
+    font-size: 0.95em;
+    font-weight: 850;
+  }
+
+  div.cover  {
+    background-position: center top;
+  }
+
+  div.cover div.page div {
+    position: static;
+    width:30%;
+    padding-top: 80px;
+    line-height: 40px;
+    font-size: 2em;
+    text-align: left;
+    margin-left:0;
+    padding-left: 0;
+  }
+
+  main div.container  {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main div.photo img {
+    width: 95%;
+  }
+
+  main div.photo h3,main div.photo p {
+    padding-left: 10px;
+  }
+
+  main div.nphoto h3 {
+    font-size: 2em;
+  }
+
+  main div.photo p {
+    font-size: 0.95em;
+  }
+
+  footer {
+    padding: 5px 0;
+  }
+
+  footer div.page {
+    display: flex;
+  }
+
+  footer a {
+    display: inline-block;
+  }
+
+  footer p {
+    padding-left: 30px;
+    padding-top: 15px;
+  }
