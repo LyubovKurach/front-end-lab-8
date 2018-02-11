@@ -11,6 +11,7 @@ var euro_to_usd;
 
 if (euro <= 0 && usd <= 0) {
 	console.log("Incorrect data");
+	
 } else {
 	
 	euro_to_uah = euro * one_euro;
