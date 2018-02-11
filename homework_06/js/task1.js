@@ -36,9 +36,7 @@ if (a <= 0 || b <= 0 || c <= 0 || incorrect <= 0 || isNaN(incorrect)){
 incorrect = "incorrect data"
 }
 
-
 console.log(incorrect);
-
 
 
 console.log("Type of triangle is " + type + "and square is " + square);

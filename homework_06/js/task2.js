@@ -1,17 +1,25 @@
-var euro = parseInt(prompt('Please, input amount of EURO'));
-var usd = parseInt(prompt('Please, input amount of USD'));
 
-if (isNaN(euro) || isNaN(usd)) {
-    console.log("Incorrect data!");
+var euro = Number (prompt("Please, enter the amount of EURO "));
+var usd = Number (prompt("Please, enter the amount of USD "));
+
+var one_euro = 33.2324;
+var one_usd = 27.1240;
+
+var euro_to_uah;
+var usd_to_uah;
+var euro_to_usd;
+
+if (euro <= 0 && usd <= 0) {
+	console.log("Incorrect data");
+
 } else {
-    var EuroToUAH = euro * 33.8565;
-    var EuroToUAH = Math.round(EuroToUAH * 100) / 100;
-    var UsdToUAH = usd * 27.4609;
-    var UsdToUAH = Math.round(UsdToUAH * 100) / 100;
+	euro_to_uah = euro * one_euro;
+	usd_to_uah = usd * one_usd;
+	euro_to_usd = one_usd / one_euro;
 
-    var EuroToUsd = 33.8565 / 27.4609;
-    var EuroToUsd = Math.round(EuroToUsd * 100) / 100;
-
-    console.log("For data" + " " + euro + "," + " " + usd + ":" + " " + euro + " " + "euros are equal" + " " + EuroToUAH + " " + "UAH," + " " + usd + " " + "dollars are equal" + " " + UsdToUAH + " " + "UAH" + ", one euro is equal" + " " + EuroToUsd + " " + "dollars.");
-
+	console.log( euro + " euros are equal " + euro_to_uah.toFixed(2) + " UAH, ", + 
+				 usd + " dollars are equal " + usd_to_uah.toFixed(2) + " UAH, ", + 
+				 " one euro is equal " +  euro_to_usd.toFixed(2) + " dollars." );
 }
+
+
