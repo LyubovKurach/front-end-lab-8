@@ -39,4 +39,5 @@ incorrect = "incorrect data"
 console.log(incorrect);
 
 
+
 console.log("Type of triangle is " + type + "and square is " + square);
